@@ -15,6 +15,10 @@ class DiceGame {
         }
         int getValue(int id) { return (id > 2 || id <= 0)? 0: (id == 1)? r1:r2; }
         int getTotal() { return r1+r2; }
+
+        void play() {
+
+        }
 };
 
 int main(void) {
@@ -24,5 +28,6 @@ int main(void) {
     cout << game.getValue(1) << endl;
     cout << game.getValue(2) << endl;
     cout << "total: " << game.getTotal() << endl;
+    cout << "You " << ((game.getTotal() > 7)? "won":"lost") << endl;
     return 0;
 }
