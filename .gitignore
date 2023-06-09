@@ -1,3 +1,4 @@
 jgit.bat
 jgit.sh
 .DS_Store
+*/*.out
