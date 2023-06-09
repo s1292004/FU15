@@ -26,8 +26,9 @@ class DiceGame {
             cout << "Hello, " << name << "!" << endl;
 
             cout << "Rolling dice..." << endl;
-            cout << r1 << "\n" << r2 << endl;
-            cout << "total: " << total << endl;
+            cout << "Die 1: " << r1 << endl;
+            cout << "Die 2: " << r2 << endl;
+            cout << "Total Value: " << total << endl;
             cout << name << " " << ((total > 7)? "won!":"lost") << endl;
         }
 };
